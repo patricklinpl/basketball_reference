@@ -2,8 +2,8 @@
 
 ## Setup
 
-  $   conda install -c conda-forge wikipedia
-  $   conda install -c conda-forge python-levenshtein
+    $ conda install -c conda-forge wikipedia
+    $ conda install -c conda-forge python-levenshtein
 
 To crawl a full season you need to use match_generator script. 
 
