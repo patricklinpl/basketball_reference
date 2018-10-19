@@ -1,6 +1,12 @@
 # Basketball Reference Crawler
 
+## Setup
+
+  $ conda install -c conda-forge wikipedia
+  $ conda install -c conda-forge python-levenshtein
+
 To crawl a full season you need to use match_generator script. 
+
 ```
   python match_generator.py --league nba --seasons 2003-2004
   python match_generator.py --league nba --seasons 2003-to-2015 (will crawl every season from 2003 to 2015)
